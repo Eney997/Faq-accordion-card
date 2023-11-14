@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(/assets/mob/bgcolor.svg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+.whiteboxcontent {
+    margin-top: 148px;
+    width: 327px;
+    height: 535px;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+}
+.fdiv {
+    display: grid;
+    place-items: center;
+}
+.headphoto {
+    margin-left: -30px;
+    margin-top: -105px;
+}
+.hpshadow {
+    margin-top: -90px;
+}
+.boxdot {
+    display: none;
+}
+.firstline {
+    display: none;
+}
+.secondline {
+    display: none;
+}
+.phrasescontent {
+    display: grid;
+    place-items: center;
+    row-gap: 20px;
+    
+}
+.faqclass {
+    margin-top: 20px;
+}
+.styles {
+    cursor: pointer;
+    color:#4B4C5F;
+    font-family: Kumbh Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.styles:hover:active {
+    color: #1E1F36;
+    transform: translate(2s);
+}
+.line4all {
+    width: 279px;
+    height: 1px;
+    background: #E8E8EA;
+    margin-top:18px ;
+}
+.arrowclass {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 265px;
+    margin-top: -9px;
+}
+.h2lilbox {
+    margin-top: 20px;
+}
+.gavstilotp {
+    display: none;
+    margin-top: 10px;
+    width: 279px;
+    color: #787887;
+    font-family: Kumbh Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.active {
+    display: block;
+}
+
+
+

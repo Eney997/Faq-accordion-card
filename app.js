@@ -1,9 +1,18 @@
-const yvelah = document.querySelector("#hebisid")
-const yvelap = document.querySelector("#pforjs")
-const arrow = document.querySelector("#arrowid")
+let allh = document.querySelectorAll("#hebisid")
+let allp = document.querySelectorAll("#pforjs")
+let arrow = document.querySelectorAll("#arrowid")
 
 
-yvelah.addEventListener("click",()=>{
-    yvelap.classList.toggle("active")
-    arrow.classList.toggle("rotate")
-})
+for (let i = 0; i < allh.length; i++) {
+    allh[i].addEventListener('click', function(){
+        allp[i].classList.toggle('active');
+        arrow[i].classList.toggle("rotate")
+
+        for (let j = 0; j < allp.length; j++) {
+            if (j !== i) {
+                allp[j].classList.remove('active');
+                arrow[j].classList.remove("rotate")
+            }
+        }
+    })
+}

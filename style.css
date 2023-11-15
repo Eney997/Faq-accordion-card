@@ -93,6 +93,9 @@ body {
 .active {
     display: block;
 }
-
+.rotate {
+    rotate: 180deg;
+    transition: 1s;
+}
 
 

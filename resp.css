@@ -5,6 +5,7 @@
         display: grid;
         place-items: center;
         grid-template-areas: 'first second' ;
+        margin-top: 50px;
     }
     .fdiv {
         grid-area: first;
